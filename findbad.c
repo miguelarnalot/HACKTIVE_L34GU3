@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+int n = 6;
 
 bool isBadVersion(int n) 
 {  
@@ -19,16 +19,14 @@ bool isBadVersion(int n)
     return(false);
 }
 
-int firstBadVersion (void)
+int firstBadVersion (int n)
 {
-    int n = 6;
-
     if (n > 231 || n < 1)
         return (84); 
     while (n >= 1) {
         if (isBadVersion(n) == false) {
             printf("%d\n", n + 1);
-            return (0);
+            return (n + 1);
         }
         n--;
     }
@@ -39,5 +37,5 @@ int main (int argc, char **argv)
 {
      if (argc != 1)
         return (84);
-    return (firstBadVersion());
+    return (firstBadVersion(n));
 }
