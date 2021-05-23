@@ -13,7 +13,7 @@ int integerReplacement(int n)
     else 
         n++;
     }
-    printf("%d", i);
+    return (i);
 }
 
 int main ()
