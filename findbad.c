@@ -1,11 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** HACKTIVE_L34GU31
-** File description:
-** findbad
-*/
-
-
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
