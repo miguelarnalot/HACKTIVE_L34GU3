@@ -22,9 +22,6 @@ int singleNumber(int* nums, int numsSize)
       i++;
       counter = 0;
    }
-   // printf("skip, nums[i] = %d %d\n", nums[i], i);
-   // printf("skip, nums[counter] = %d %d\n\n", nums[counter], counter);
-
 }
 
 int main (void)
