@@ -22,6 +22,7 @@ int singleNumber(int* nums, int numsSize)
       i++;
       counter = 0;
    }
+   return (0);
 }
 
 int main (void)
